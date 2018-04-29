@@ -1,0 +1,44 @@
+h1 {
+	font-family:arial;
+	text-align:center;
+}
+
+.hide {
+	display:none;
+}
+
+.Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    height: 150px;
+    table-layout: auto; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column
+{
+    display: table-cell;
+    background-color: cyan; /*Optional*/
+    border-radius:10px;
+    width:300px;
+}
+
+#x1, #x2, #x3, #x4, #x5, #x6, #x7, #x8, #x9 {
+	text-align:center;
+	vertical-align:middle;
+	font-family:arial;
+	font-size:45px;
+	top:40px;
+	position:relative;
+}
+
+
+
+#o1, #o2, #o3, #o4, #o5, #o6, #o7, #o8, #o9 {	
+	text-align:center;
+	vertical-align:middle;
+	font-family:arial;
+	font-size:45px;
+	top:40px;
+	position:relative;
+}
